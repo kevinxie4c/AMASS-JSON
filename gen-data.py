@@ -9,7 +9,7 @@ from os import path as osp
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-z', '--npz', action='store_true', help='indicate spec_file is a npz file')
-parser.add_argument('-o', '--outdir', action='store', default="output",  help='output folder ("output" by default)')
+parser.add_argument('-o', '--outdir', action='store', default="output",  help='output folder (default: output)')
 parser.add_argument('spec_file')
 args = parser.parse_args()
 

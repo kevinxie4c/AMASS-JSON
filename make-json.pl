@@ -37,24 +37,24 @@ system 'matlab', '-batch', "compute_inertia $dir";
 
 my $fin;
 my @joint_names = qw(
-Pelvis
+pelvis
 lThigh
 rThigh
-Abdomen
+abdomen
 lCalf
 rCalf
-Chest1
+chest1
 lFoot
 rFoot
-Chest2
+chest2
 lSole
 rSole
-Neck
+neck
 lShoulder
-rShouder
-Head
-lUpperarm
-rUpperarm
+rShoulder
+head
+lUpperArm
+rUpperArm
 lForearm
 rForearm
 lHand
